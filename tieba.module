@@ -1,3 +1,4 @@
+#!url=https://raw.githubusercontent.com/zjcjim/shadowrocket_modules/refs/heads/main/tieba.module
 #!name=贴吧去广告
 #!desc=贴吧去广告自用
 [URL Rewrite]
