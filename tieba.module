@@ -8,11 +8,22 @@ DOMAIN-KEYWORD,ugdtimg,REJECT-DICT
 DOMAIN-KEYWORD,feed-image,REJECT-DICT
 DOMAIN-KEYWORD,bdydns,REJECT-DICT
 DOMAIN-KEYWORD,nadvideo,REJECT-DICT
-DOMAIN-SUFFIX,gslb.yy.com,REJECT-DICT
+DOMAIN-SUFFIX,yy.com,REJECT-DICT
+DOMAIN-KEYWORD,xdplt,REJECT-DICT
+DOMAIN-KEYWORD,douyinpic,REJECT-DICT
+DOMAIN-SUFFIX,gdt.qq.com,REJECT-DICT
+DOMAIN-SUFFIX,mobads.baidu.com,REJECT-DICT
+DOMAIN-SUFFIX,als.baidu.com,REJECT-DICT
+DOMAIN-SUFFIX,tb-video.bdstatic.com,REJECT-DICT
+DOMAIN-KEYWORD,360,REJECT-DICT
+DOMAIN-KEYWORD,sofire,REJECT-DICT
+DOMAIN-KEYWORD,jomoxc,REJECT-DICT
+DOMAIN-SUFFIX,afd.baidu.com,REJECT-DICT
+DOMAIN-SUFFIX,s3plus.meituan.net,REJECT-DICT
 
 [URL Rewrite]
 ^https?:\/\/tiebac\.baidu\.com\/tiebaads - reject-dict
-.*tiebac\.baidu\.com/c/s/ad.*
+.*tiebac\.baidu\.com/c/s/ad.* - reject-dict
 
 [MITM]
 hostname = %APPEND% tiebac.baidu.com
