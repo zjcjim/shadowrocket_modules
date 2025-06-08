@@ -1,7 +1,18 @@
 #!url=https://raw.githubusercontent.com/zjcjim/shadowrocket_modules/refs/heads/main/tieba.module
 #!name=贴吧去广告
 #!desc=贴吧去广告自用
+
 [Rule]
-DOMAIN-KEYWORD,toutiao,REJECT-200
-DOMAIN-KEYWORD,ugdtimg,reject-200
-DOMAIN-KEYWORD,feed-image,REject-200
+DOMAIN-KEYWORD,toutiao,REJECT-DICT
+DOMAIN-KEYWORD,ugdtimg,REJECT-DICT
+DOMAIN-KEYWORD,feed-image,REJECT-DICT
+DOMAIN-KEYWORD,bdydns,REJECT-DICT
+DOMAIN-KEYWORD,nadvideo,REJECT-DICT
+DOMAIN-SUFFIX,gslb.yy.com,REJECT-DICT
+
+[URL Rewrite]
+^https?:\/\/tiebac\.baidu\.com\/tiebaads - reject-dict
+.*tiebac\.baidu\.com/c/s/ad.*
+
+[MITM]
+hostname = %APPEND% tiebac.baidu.com
