@@ -1,0 +1,4 @@
+#!name=贴吧去广告
+#!desc=贴吧去广告自用
+[URL Rewrite]
+^[a-z0-9-]+\.pglstatp-toutiao\.com$ reject-200
