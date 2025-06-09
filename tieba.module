@@ -14,12 +14,13 @@ DOMAIN-KEYWORD,douyinpic,REJECT-DICT
 DOMAIN-SUFFIX,gdt.qq.com,REJECT-DICT
 DOMAIN-SUFFIX,mobads.baidu.com,REJECT-DICT
 DOMAIN-SUFFIX,als.baidu.com,REJECT-DICT
-DOMAIN-SUFFIX,tb-video.bdstatic.com,REJECT-DICT
+# DOMAIN-SUFFIX,tb-video.bdstatic.com,REJECT-DICT
 DOMAIN-KEYWORD,360,REJECT-DICT
 DOMAIN-KEYWORD,sofire,REJECT-DICT
 DOMAIN-KEYWORD,jomoxc,REJECT-DICT
 DOMAIN-SUFFIX,afd.baidu.com,REJECT-DICT
 DOMAIN-SUFFIX,s3plus.meituan.net,REJECT-DICT
+DOMAIN-SUFFIX,afdconf.baidu.com,REJECT-DICT
 
 [URL Rewrite]
 ^https?:\/\/tiebac\.baidu\.com\/tiebaads - reject-dict
