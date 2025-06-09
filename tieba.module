@@ -21,6 +21,10 @@ DOMAIN-KEYWORD,jomoxc,REJECT-DICT
 DOMAIN-SUFFIX,afd.baidu.com,REJECT-DICT
 DOMAIN-SUFFIX,s3plus.meituan.net,REJECT-DICT
 DOMAIN-SUFFIX,afdconf.baidu.com,REJECT-DICT
+DOMAIN-SUFFIX,im-x.jd.com,REJECT-DICT
+DOMAIN-SUFFIX,e.qq.com,REJECT-DICT
+DOMAIN-SUFFIX,e.kuaishou.com,REJECT-DICT
+
 
 [URL Rewrite]
 ^https?:\/\/tiebac\.baidu\.com\/tiebaads - reject-dict
