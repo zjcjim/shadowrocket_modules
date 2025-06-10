@@ -1,4 +1,8 @@
+#!url=https://raw.githubusercontent.com/zjcjim/shadowrocket_modules/refs/heads/main/bili-ipad.module
 #!name=B站iPad端去广告
 #!desc=B站iPad端去广告自用
 
 [Rule]
+DOMAIN-SUFFIX,biligame.com,REJECT-DICT
+DOMAIN-KEYWORD,miaozhen,REJECT-DICT
+DOMAIN-SUFFIX,iegadp.qq.com,REJECT-DICT
