@@ -28,7 +28,7 @@ DOMAIN-KEYWORD,huya,REJECT-DICT
 DOMAIN-SUFFIX,tuisong.baidu.com,REJECT-DICT
 DOMAIN-SUFFIX,iegadp.qq.com,REJECT-DICT
 DOMAIN-KEYWORD,miaozhen,REJECT-DICT
-
+DOMAIN-SUFFIX,adsmind.gdtimg.com,REJECT-DICT
 
 [URL Rewrite]
 ^https?:\/\/tiebac\.baidu\.com\/tiebaads - reject-dict
